@@ -1,0 +1,1 @@
+python3 train.py --lr 0.009 --momentum 0.5 --num_hidden 1 --sizes 1100 --activation tanh --loss ce --opt adam --batch_size 300 --epochs 1 --anneal true --save_dir ../save_dir/ --expt_dir ../expt_dir/ --train train.csv --val valid.csv --test test.csv --pretrain false --state 0 --testing false

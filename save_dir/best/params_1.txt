@@ -1,0 +1,11 @@
+lr: 0.009
+momentum: 0.5
+num_hidden: 1
+sizes: 1100
+activation: tanh
+loss: ce
+opt: adam
+batch_size: 300
+epochs: 25 
+anneal: true
+********************(below this line include if you added any your own arguments(check params_2.txt) , if not file ends here)

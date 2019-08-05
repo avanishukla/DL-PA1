@@ -1,0 +1,11 @@
+lr: 0.009
+momentum: 0.5
+num_hidden: 1
+sizes: 1000
+activation: tanh
+loss: ce
+opt: adam
+batch_size: 200
+epochs: 25 
+anneal: true
+********************
